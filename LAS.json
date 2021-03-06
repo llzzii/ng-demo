@@ -1,0 +1,52 @@
+{
+  "userId": "3bd5502e-ff45-4725-9517-c6640ee34165",
+  "token": "eyJhb",
+  "orderRoute": "LAS",
+  "consoleOrderFlowId": "a414.7e555933a-af63.b92a50f69-4784.2c99e7dce-6066.451103498-252d.e0059f34c",
+  "setCount": "1",
+  "billType": "hourlySettlement",
+  "duration": "12",
+  "durationUnit": "M",
+  "orderWhat": "formal",
+  "orderType": "new",
+  "serviceStartTime": "",
+  "serviceEndTime": "",
+  "couponId": "",
+  "orderSource": "console",
+  "productList": [
+    {
+      "region": "region-rdcenter-intact",
+      "availableZone": "az-rdcenter-intact",
+      "productName": "日志审计",
+      "productLineCode": "LAS",
+      "instanceCount": 1,
+      "instanceId": "",
+      "productTypeCode": "LAS_x86",
+      "itemList": [
+        { "code": "name", "value": "日志审计" },
+        { "code": "productDefId", "value": "5" },
+        { "code": "productSpecId", "value": "BasicVersion" },
+        { "code": "description", "value": "" },
+        { "code": "vpcName", "value": "Default-vpc" },
+        { "code": "vpcId", "value": "1344462967781089280" },
+        {
+          "code": "vpcNetworkId",
+          "value": "224bf3a2-3b77-4be7-b5b4-a788b98d03a4"
+        },
+        { "code": "subnetName", "value": "Default-subnet" },
+        { "code": "subnetId", "value": "79b71f71-5aa7-45e4-b092-5776970f7b3d" },
+        { "code": "securityGroupName", "value": "default" },
+        {
+          "code": "securityGroupId",
+          "value": "08ddaa48-1813-4de8-afc9-8910898072c5"
+        },
+        {
+          "code": "LAS_x86_spec_BasicVersion",
+          "value": "1",
+          "packageList": [{ "code": "count", "value": 1 }]
+        }
+      ]
+    }
+  ],
+  "consoleCustomization": { "ip": "" }
+}

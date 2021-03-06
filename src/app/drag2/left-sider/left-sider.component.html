@@ -1,0 +1,9 @@
+<!-- <button nz-button nzType="primary" appDrag="true" dragTag="left"><i nz-icon nzType="download"></i>Download</button> -->
+<div #container>234
+  <div *ngFor="let item of listData | keyvalue">
+    <com-container [title]="item.key" [config]="item.value" [appDrag]="true" [dragTag]="'left'" [dragData]="item.value">
+    </com-container>
+
+
+  </div>
+</div>

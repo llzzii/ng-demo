@@ -1,0 +1,52 @@
+{
+  "userId": "3bd5502e-ff45-4725-9517-c6640ee34165",
+  "token": "e",
+  "orderRoute": "DAS",
+  "consoleOrderFlowId": "253e.70a2defeb-bb7a.d83649d94-2a78.896878dde-72a2.ffc741cc2-6d38.7a6bc4416",
+  "setCount": "1",
+  "billType": "hourlySettlement",
+  "duration": "12",
+  "durationUnit": "M",
+  "orderWhat": "formal",
+  "orderType": "new",
+  "serviceStartTime": "",
+  "serviceEndTime": "",
+  "couponId": "",
+  "orderSource": "console",
+  "productList": [
+    {
+      "region": "region-rdcenter-intact",
+      "availableZone": "az-rdcenter-intact",
+      "productName": "数据库审计",
+      "productLineCode": "DAS",
+      "instanceCount": 1,
+      "instanceId": "",
+      "productTypeCode": "DAS_x86",
+      "itemList": [
+        { "code": "name", "value": "数据库审计" },
+        { "code": "productDefId", "value": "2" },
+        { "code": "productSpecId", "value": "BasicVersion" },
+        { "code": "description", "value": "" },
+        { "code": "vpcName", "value": "Default-vpc" },
+        { "code": "vpcId", "value": "1344462967781089280" },
+        {
+          "code": "vpcNetworkId",
+          "value": "224bf3a2-3b77-4be7-b5b4-a788b98d03a4"
+        },
+        { "code": "subnetName", "value": "Default-subnet" },
+        { "code": "subnetId", "value": "79b71f71-5aa7-45e4-b092-5776970f7b3d" },
+        { "code": "securityGroupName", "value": "default" },
+        {
+          "code": "securityGroupId",
+          "value": "08ddaa48-1813-4de8-afc9-8910898072c5"
+        },
+        {
+          "code": "DAS_x86_spec_BasicVersion",
+          "value": "1",
+          "packageList": [{ "code": "count", "value": 1 }]
+        }
+      ]
+    }
+  ],
+  "consoleCustomization": { "ip": "" }
+}

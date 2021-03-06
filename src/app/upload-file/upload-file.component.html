@@ -1,0 +1,7 @@
+<nz-progress [nzPercent]="value" nzStatus="active"></nz-progress>
+
+<input type="file" name="file" (click)="clickthis()" (change)="submit($event)" id="file">
+
+<button (click)="handleFileSelect()">上传</button>
+<button nz-button nzType="primary" [nzLoading]="loading" (click)="handleFileSelect()"><i nz-icon
+    nzType="poweroff"></i>上传</button>

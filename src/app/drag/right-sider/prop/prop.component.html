@@ -1,0 +1,27 @@
+<p *ngIf="_propData==null" style="text-align: center;">请先选择组件</p>
+<form *ngIf="_propData!=null" nz-form [formGroup]="propForm">
+  <ng-container *ngFor="let item of data | keyvalue">
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" [nzXs]="24">{{item.key}}</nz-form-label>
+      <nz-form-control [nzSm]="14" [nzXs]="24">
+        <input nz-input [formControlName]="item.key" [(ngModel)]="item.value" />
+      </nz-form-control>
+    </nz-form-item>
+  </ng-container>
+</form>
+<form *ngIf="_propData!=null" nz-form [formGroup]="commonForm">
+
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzXs]="24">X 位置</nz-form-label>
+    <nz-form-control [nzSm]="14" [nzXs]="24">
+      <input nz-input formControlName="x" [(ngModel)]="x" />
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-label [nzSm]="6" [nzXs]="24">Y 位置</nz-form-label>
+    <nz-form-control [nzSm]="14" [nzXs]="24">
+      <input nz-input formControlName="y" [(ngModel)]="y" />
+    </nz-form-control>
+  </nz-form-item>
+</form>
+<button *ngIf="_propData!=null" nzBlock nz-button nzType="primary" (click)="submitForm()">保存</button>

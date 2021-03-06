@@ -1,0 +1,10 @@
+.qrcode {
+  display: inline-block;
+}
+.qrcode img {
+  width: 132px;
+  height: 132px;
+  background-color: #fff;
+  padding: 6px;
+  box-sizing: border-box;
+}

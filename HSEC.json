@@ -1,0 +1,40 @@
+{
+  "userId": "3bd5502e-ff45-4725-9517-c6640ee34165",
+  "token": "eyJhbKg",
+  "orderRoute": "HSec",
+  "consoleOrderFlowId": "34da.ecb330672-a574.565659307-4749.55adcf4f6-99dd.1af7c0d-7d1b.c1471fc2e",
+  "setCount": "1",
+  "billType": "hourlySettlement",
+  "duration": "12",
+  "durationUnit": "M",
+  "orderWhat": "formal",
+  "orderType": "new",
+  "serviceStartTime": "",
+  "serviceEndTime": "",
+  "couponId": "",
+  "orderSource": "console",
+  "productList": [
+    {
+      "region": "region-rdcenter-intact",
+      "availableZone": "az-rdcenter-intact",
+      "productName": "云主机安全",
+      "productLineCode": "HSec",
+      "instanceCount": 1,
+      "instanceId": "",
+      "productTypeCode": "HSec_x86",
+      "itemList": [
+        { "code": "name", "value": "主机安全" },
+        { "code": "productDefId", "value": "7" },
+        { "code": "productSpecId", "value": "StandardVersion" },
+        { "code": "description", "value": "" },
+        { "code": "protect_host", "value": 5 },
+        {
+          "code": "HSec_x86_StandardVersion",
+          "value": "1",
+          "packageList": [{ "code": "protect_host", "value": 1 }]
+        }
+      ]
+    }
+  ],
+  "consoleCustomization": { "ip": "" }
+}

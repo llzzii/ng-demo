@@ -1,0 +1,24 @@
+.ant-layout-sider,
+.ant-layout-header,
+.ant-layout {
+  background: #fff;
+}
+.ant-layout-content {
+  background: #f1f1f1;
+}
+.ant-layout-header {
+  border-bottom: 1px solid #ddd;
+}
+.content {
+  position: relative;
+}
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.main {
+  position: relative;
+  z-index: 2;
+}

@@ -1,0 +1,13 @@
+<p *ngIf="_eventData==null" style="text-align: center;">请先选择组件</p>
+<form *ngIf="_eventData!=null" nz-form [formGroup]="eventForm">
+  <ng-container *ngFor="let item of data | keyvalue">
+    <nz-form-item>
+      <nz-form-label [nzSm]="6" [nzXs]="24">{{item.key}}</nz-form-label>
+      <nz-form-control [nzSm]="14" [nzXs]="24">
+        <textarea rows="4" nz-input [formControlName]="item.key"></textarea>
+      </nz-form-control>
+    </nz-form-item>
+  </ng-container>
+</form>
+
+<button *ngIf="_eventData!=null" nzBlock nz-button nzType="primary" (click)="submitForm()">保存</button>

@@ -1,0 +1,120 @@
+.icon {
+  width: 10em;
+  height: 10em;
+  opacity: 0;
+}
+
+.sky {
+  background-color: #adf;
+  height: 100px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.ground {
+  background-color: #778;
+  height: 30px;
+  position: relative;
+  z-index: 10;
+}
+.container {
+  display: flex;
+  padding: 100px;
+  box-sizing: border-box;
+  flex-direction: column;
+  position: relative;
+}
+.group-top .ground {
+  margin: 0px 145px;
+}
+.group-top .sky {
+  margin-bottom: -30px;
+  height: 130px;
+}
+.group-bottom .ground {
+  margin: 0px 145px;
+}
+.group-bottom .sky {
+  top: -30px;
+  height: 130px;
+  text-align: right;
+}
+.group-bottom {
+}
+.group-center {
+  height: 100%;
+  display: flex;
+  height: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: -30px 0;
+  position: relative;
+  z-index: 100;
+}
+.group-left {
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.group-left .ground {
+  width: 30px;
+  height: 100%;
+}
+.group-left .sky {
+  height: 100%;
+}
+.group-right {
+  height: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.group-right .ground {
+  width: 30px;
+  height: 100%;
+}
+.group-right .sky {
+  height: 100%;
+}
+.group-right .icon {
+  transform: rotate(90deg);
+  position: relative;
+  left: -27px;
+  z-index: 100;
+  top: -70px;
+}
+.group-left .icon {
+  transform: rotate(-90deg);
+  position: relative;
+  left: 30px;
+  z-index: 100;
+  bottom: calc(-100% + 123px);
+}
+.group-bottom .icon {
+  transform: rotate(180deg);
+}
+.buttons {
+  width: 100%;
+  padding: 30px 0;
+  position: relative;
+}
+.b-group {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+}
+
+.buttons .icon {
+  opacity: 1;
+  bottom: 18px;
+  position: relative;
+  width: 6em;
+  height: 6em;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+.car-w {
+  opacity: 1;
+  position: relative;
+  bottom: -14px;
+  left: -30px;
+}

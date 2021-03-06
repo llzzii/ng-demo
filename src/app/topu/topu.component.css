@@ -1,0 +1,40 @@
+:host ::ng-deep .service-container {
+  margin: -20px;
+  color: #5a5a5a;
+}
+:host ::ng-deep .cluster rect {
+  stroke: #eaeced;
+  fill: #fff;
+  fill-opacity: 0.6;
+  stroke-width: 1px;
+  stroke-dasharray: 3px;
+  rx: 40;
+  ry: 40;
+  box-shadow: 0 0 10px #f00;
+}
+:host ::ng-deep g .label {
+  color: #5a5a5a;
+}
+:host ::ng-deep .node > rect {
+  stroke: #eaeced;
+  fill: #fff;
+  stroke-width: 1px;
+}
+:host ::ng-deep g.gateway > rect {
+  opacity: 0.6;
+}
+:host ::ng-deep g.warning > rect {
+  fill: #fbf8e6;
+  stroke: #f6e3c4;
+}
+:host ::ng-deep g.error > rect {
+  fill: #fcf7f4;
+  stroke: #fbefea;
+}
+:host ::ng-deep .cluster .label {
+  font-size: 18px;
+}
+:host ::ng-deep .edgePath path {
+  stroke: #a7b1bc;
+  stroke-width: 1px;
+}

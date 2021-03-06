@@ -1,0 +1,10 @@
+<div class="service-container clearfix">
+  <svg [style.height.px]="height" [style.width.px]="width">
+    <g />
+  </svg>
+</div>
+<ng-template #drawerTemplate let-data let-drawerRef="drawerRef">
+  value: {{ data?.value }}
+  <br />
+  <button nz-button nzType="primary" (click)="drawerRef.close()">close</button>
+</ng-template>

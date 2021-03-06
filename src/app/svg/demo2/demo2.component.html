@@ -1,0 +1,63 @@
+<div class="container" [ngStyle]="{'width': width,'height': height}">
+  <svg class="icon car-w" aria-hidden="true" #car6>
+    <use xlink:href="#iconxiaoqiche2"></use>
+  </svg>
+  <div class="group-top">
+    <div class="sky">
+      <!-- <i class="iconfont iconxiaoqiche"></i> -->
+      <svg class="icon" aria-hidden="true" #car1>
+        <use xlink:href="#iconxiaoqiche"></use>
+      </svg>
+    </div>
+    <div class="ground"></div>
+  </div>
+  <div class="group-center">
+    <div class="group-left">
+      <div class="sky">
+        <!-- <i class="iconfont iconxiaoqiche"></i> -->
+        <svg class="icon" aria-hidden="true" #car2>
+          <use xlink:href="#iconxiaoqiche"></use>
+        </svg>
+      </div>
+      <div class="ground"></div>
+    </div>
+    <div class="buttons">
+      <svg class="icon" aria-hidden="true" #car5>
+        <use xlink:href="#iconxiaoqiche1"></use>
+      </svg>
+      <div class="b-group"><button nz-button nzType="primary" (click)="run('play')">开始</button>
+        <button nz-button nzType="primary" (click)="run('pause')">暂停</button>
+        <button nz-button nzType="primary" (click)="run('resume')">继续</button>
+        <button nz-button nzType="primary" (click)="run('restart')">重新开始</button>
+
+
+        <button nz-button nzType="primary" (click)="from()">中间汽车</button>
+        <button nz-button nzType="primary" (click)="twoTween()">内部汽车</button>
+        <button nz-button nzType="primary" (click)="threeTween()">外部汽车</button>
+        <button nz-button nzType="primary" (click)="tss()">同时</button>
+      </div>
+    </div>
+
+    <div class="group-right">
+      <div class="ground"></div>
+      <div class="sky">
+        <!-- <i class="iconfont iconxiaoqiche"></i> -->
+        <svg class="icon" aria-hidden="true" #car3>
+          <use xlink:href="#iconxiaoqiche"></use>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <div class="group-bottom">
+    <div class="ground"></div>
+    <div class="sky">
+      <!-- <i class="iconfont iconxiaoqiche"></i> -->
+      <svg class="icon" aria-hidden="true" #car4>
+        <use xlink:href="#iconxiaoqiche"></use>
+      </svg>
+    </div>
+  </div>
+
+
+</div>

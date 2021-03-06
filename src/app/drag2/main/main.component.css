@@ -1,0 +1,26 @@
+.container {
+  min-height: 500px;
+  position: relative;
+  height: 100%;
+  z-index: 11;
+}
+.contain {
+  position: absolute;
+  z-index: 10;
+}
+.grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.cont {
+  position: relative;
+  z-index: 2;
+}
+.main {
+  position: relative;
+  height: 90%;
+  background: #fff;
+  margin: 20px;
+}

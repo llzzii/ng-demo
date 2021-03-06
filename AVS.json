@@ -1,0 +1,40 @@
+{
+  "userId": "3bd5502e-ff45-4725-9517-c6640ee34165",
+  "token": "eyJhbGg",
+  "orderRoute": "AVS",
+  "consoleOrderFlowId": "81b8.419018705-535c.73c16117a-7949.eb575b60c-d310.6bf20bcce-6c35.a18cd8e86",
+  "setCount": "1",
+  "billType": "hourlySettlement",
+  "duration": "12",
+  "durationUnit": "M",
+  "orderWhat": "formal",
+  "orderType": "new",
+  "serviceStartTime": "",
+  "serviceEndTime": "",
+  "couponId": "",
+  "orderSource": "console",
+  "productList": [
+    {
+      "region": "region-rdcenter-intact",
+      "availableZone": "az-rdcenter-intact",
+      "productName": "云主机杀毒",
+      "productLineCode": "AVS",
+      "instanceCount": 1,
+      "instanceId": "",
+      "productTypeCode": "AVS_x86",
+      "itemList": [
+        { "code": "name", "value": "主机杀毒" },
+        { "code": "productDefId", "value": "8" },
+        { "code": "productSpecId", "value": "StandardVersion" },
+        { "code": "description", "value": "" },
+        { "code": "protect_host", "value": 6 },
+        {
+          "code": "AVS_x86_StandardVersion",
+          "value": "1",
+          "packageList": [{ "code": "protect_host", "value": 1 }]
+        }
+      ]
+    }
+  ],
+  "consoleCustomization": { "ip": "" }
+}

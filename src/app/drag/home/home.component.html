@@ -1,0 +1,16 @@
+<nz-layout #layout [ngStyle]="{'width': width,'height':height}">
+  <nz-header>header</nz-header>
+  <nz-layout>
+    <nz-sider>
+      <left-sider></left-sider>
+    </nz-sider>
+    <nz-content class="content">
+      <app-main class="main"></app-main>
+
+    </nz-content>
+    <nz-sider nzWidth="300px">
+      <right-sider></right-sider>
+    </nz-sider>
+  </nz-layout>
+  <!-- <nz-footer>footer</nz-footer> -->
+</nz-layout>

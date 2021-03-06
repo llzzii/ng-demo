@@ -1,0 +1,19 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.4.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "blenderkitUI" : {
+                    "assetbar_on" : 0,
+                    "turn_off" : 0
+                },
+                "uuid" : "c604be42-635a-4982-8c7e-f06a6f73b416"
+            },
+            "name" : "Scene"
+        }
+    ]
+}
